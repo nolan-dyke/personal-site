@@ -5,6 +5,7 @@ export default function resume() {
     return (
         <div>
             <Navbar />
+            <p>Site currently in development ;)</p>
         </div>
     )
 }

@@ -68,7 +68,7 @@ body {
 
 
 #app {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -96,22 +96,22 @@ body {
     color: #687864;
 }
 
-#placeholder {
+#about {
     font-size: 44px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
+    width: 60%;
     padding: 10px;
 }
 
 .nolan {
     margin-top: 10px;
     font-family: 'Abril Fatface';
-    font-size: 60px;
+    font-size: 80px;
 }
 
-#placeholder p {
+#about p {
     margin: 0;
     padding: 10px;
 }
@@ -122,7 +122,8 @@ nav {
     justify-content: flex-end;
     align-items: center;
     padding: 5px;
-    height: 10vh;
+    min-height: 10vh;
+    min-width: 100vh;
 }
 
 nav a {
@@ -131,10 +132,6 @@ nav a {
     color: #f7f9fb;
 }
 
-/* nav a:visited {
-    color: #687864;
-} */
-
 nav a:hover {
     /* color: #f7f9fbaa; */
     color: #687864;
@@ -142,4 +139,10 @@ nav a:hover {
 
 nav a:active {
     color: #f7f9fbaa;
+}
+
+.bolded {
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }

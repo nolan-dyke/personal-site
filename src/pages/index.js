@@ -1,5 +1,5 @@
 import React from "react"
-import Placeholder from "../components/Placeholder"
+import About from "../components/About"
 import Navbar from '../components/Navbar'
 import { Link } from "gatsby"
 
@@ -9,7 +9,7 @@ export default function index() {
       <Navbar />
       <div id="app">
         <p id="job-title">Web Developer / Software Engineer</p>
-        <Placeholder />
+        <About />
         <a id="email" href="mailto:nolan.g.dyke@gmail.com">nolan.g.dyke@gmail.com</a>
       </div>
     </>
