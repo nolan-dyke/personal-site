@@ -7,7 +7,11 @@ export default function index() {
   return (
     <>
       <Navbar />
-      <Placeholder />
+      <div id="app">
+        <p id="job-title">Web Developer / Software Engineer</p>
+        <Placeholder />
+        <a id="email" href="mailto:nolan.g.dyke@gmail.com">nolan.g.dyke@gmail.com</a>
+      </div>
     </>
   )
 }
