@@ -19,7 +19,7 @@ export default function About() {
                 I have a zeal for diving into new technologies, a 
                 drive to improve the code that I write, and I care
                 deeply about using my skills to make a positive 
-                imact.
+                impact.
             </p>
         </div>
     )

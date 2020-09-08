@@ -130,7 +130,6 @@ nav a {
 }
 
 nav a:hover {
-    /* color: #f7f9fbaa; */
     color: #687864;
 }
 
@@ -142,6 +141,22 @@ nav a:active {
     font-weight: bold;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+#contacts {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contacts a {
+    color: #f7f9fb;
+    font-size: 100px;
+}
+
+#contacts a:hover {
+    color: #687864;
 }
 
 @media only screen and (max-width: 600px) {
@@ -158,5 +173,9 @@ nav a:active {
     }
     .nolan {
         font-size: 60px;
+    }
+    nav {
+        min-width: 100%;
+        justify-content: space-between;
     }
 }
