@@ -66,6 +66,14 @@ body {
     color: #f7f9fb;
 }
 
+#placeholder {
+    min-height: 50vh;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #app {
     min-height: 100vh;
     width: 100%;
@@ -159,6 +167,29 @@ nav a:active {
     color: #687864;
 }
 
+#footer-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 70%;
+    padding: 20px;
+    margin-top: 20px;
+    border-top-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a {
+    color: #f7f9fb;
+    font-size: 48px;
+}
+
+footer a:hover {
+    color: #687864;
+}
+
 @media only screen and (max-width: 600px) {
     #email {
         display: none;
@@ -177,5 +208,14 @@ nav a:active {
     nav {
         min-width: 100%;
         justify-content: space-between;
+    }
+    #contacts {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        width: 100%;
+        justify-content: space-between;
+        border-top-style: dotted;
     }
 }

@@ -1,6 +1,7 @@
-import React from "react"
-import About from "../components/About"
+import React from 'react'
+import About from '../components/About'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import { Helmet } from "react-helmet"
 // import { Link } from "gatsby"
 
@@ -17,6 +18,9 @@ export default function index() {
         <About />
         <a id="email" href="mailto:nolan.g.dyke@gmail.com">nolan.g.dyke@gmail.com</a>
       </div>
+      <section id="footer-wrapper">
+        <Footer />
+      </section>
     </>
   )
 }

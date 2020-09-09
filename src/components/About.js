@@ -11,8 +11,8 @@ export default function About() {
             </p>
             <p>
                 I'm an avid learner and lover of beautiful design. My
-                passions have taken me from studying hard sciences to 
-                teaching English in Taiwan & China to developing useful 
+                passions have taken me from studying biochemistry and molecular biology 
+                to teaching English in Taiwan & China to developing useful 
                 and beautiful web apps. 
             </p>
             <p>

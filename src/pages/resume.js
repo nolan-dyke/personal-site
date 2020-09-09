@@ -1,11 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function resume() {
     return (
         <div>
             <Navbar />
-            <p>Site currently in development ;)</p>
+            <p id="placeholder">Site currently in development ;)</p>
+            <section id="footer-wrapper">
+                <Footer />
+            </section>
         </div>
     )
 }
