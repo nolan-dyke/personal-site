@@ -1,12 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import ResumeImage from '../images/resume.png'
 
 export default function resume() {
     return (
         <div>
             <Navbar />
-            <p id="placeholder">Site currently in development ;)</p>
+            <div id="resume-image-section">
+                <img src={ResumeImage} alt="nolan-dyke-resume"/>
+            </div>
             <section id="footer-wrapper">
                 <Footer />
             </section>
