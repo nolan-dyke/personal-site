@@ -191,11 +191,12 @@ footer a:hover {
 }
 
 #resume-image-section {
-    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 @media only screen and (max-width: 600px) {
     #email {
@@ -224,5 +225,8 @@ footer a:hover {
         width: 100%;
         justify-content: space-between;
         border-top-style: dotted;
+    }
+    #resume-image {
+        max-width: 40vh;
     }
 }
