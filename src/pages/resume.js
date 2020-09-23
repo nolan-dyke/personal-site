@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import ResumeImage from '../images/Resume9:16:20.png'
+import ResumeImage from '../images/Resume9:23:20.png'
 
 export default function resume() {
     return (
