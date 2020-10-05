@@ -190,6 +190,49 @@ footer a:hover {
     color: #687864;
 }
 
+#form-section {
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: solid;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 75vh;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+
+}
+
+form input {
+    border: none;
+}
+
+form textarea {
+    border: none;
+}
+
+form button {
+    margin: 5px;
+    width: 25%;
+    background-color: #f7f9fb;
+    border: none;
+    border-radius: 3px;
+}
+
+form button:hover {
+    color: #f7f9fb;
+    background-color: #687864;
+}
+
 #resume-image-section {
     display: flex;
     justify-content: center;
