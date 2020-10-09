@@ -239,7 +239,48 @@ form button:hover {
     align-items: center;
 }
 
+#project-container {
+    display: flex;
+    padding: 10px;
+}
 
+.card {
+    border: solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(80, 133, 165);
+    box-shadow: 5px 5px 5px rgb(49, 112, 142);
+}
+
+.card h3 {
+    font-size: 35px;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card > *{
+    margin: 5px;
+}
+
+.card:hover {
+    box-shadow: 15px 15px 15px rgb(49, 112, 142);
+}
+
+.project-details { 
+    font-size: 25px;
+}
+
+.links a {
+    font-size: 20px;
+    padding: 5px;
+    color: #f7f9fb;
+}
 
 @media only screen and (max-width: 600px) {
     #email {
@@ -271,5 +312,8 @@ form button:hover {
     }
     #resume-image {
         max-width: 40vh;
+    }
+    #project-container {
+        flex-direction: column;
     }
 }

@@ -4,7 +4,7 @@ export default class ContactForm extends Component {
     render() {
         return (
             <section id='form-section'>
-            <form method='POST' action='#'>
+            <form method='POST' action='https://getform.io/f/e4b3ad9b-497a-4ac6-ad9e-7ce5d9db21c6'>
                 <label>
                     Name
                     <input type='text' name='name' />
@@ -24,7 +24,6 @@ export default class ContactForm extends Component {
                 <button type='submit'>
                     Send
                 </button>
-                {/* <input type='reset' value='Clear' /> */}
             </form>
             </section>
         )
