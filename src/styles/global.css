@@ -235,12 +235,20 @@ form button:hover {
 
 #resume-image-section {
     display: flex;
+    
     justify-content: center;
     align-items: center;
 }
 
+#resume-image {
+    max-width: 100%;
+    padding: 70px;
+}
+
 #project-container {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     padding: 10px;
 }
 
@@ -257,11 +265,12 @@ form button:hover {
 }
 
 .card h3 {
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .card img {
     border-radius: 10px;
+    width: 300px;
 }
 
 .card > *{

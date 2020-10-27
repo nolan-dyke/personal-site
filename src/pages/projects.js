@@ -2,11 +2,15 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import ProjectCard from '../components/ProjectCard'
+import phonoimage from '../images/phonomandarin.png'
+import dogimage from '../images/dogmatcher.png'
+import accountimage from '../images/Accountabilibuddies.png'
+import knitimage from '../images/knit.png'
 
 const projectInfo = [
     {
         "name": "PhonoMandarin",
-        "image": "https://i9.ytimg.com/vi_webp/2d-KcMdh9ic/mq1.webp?sqp=CPjB_vsF&rs=AOn4CLAZsb7Knhk-1oYScD9HOAf2C1L4TQ",
+        "image": phonoimage,
         "frontend": "https://github.com/nolan-dyke/mod5_project",
         "backend": "https://github.com/nolan-dyke/capstone_backend",
         "hook": "Mandarin pronunciation verifier. Make sure when you say pen in Chinese, you're really saying pen in Chinese.",
@@ -14,8 +18,8 @@ const projectInfo = [
         "link": "https://phonomandarin.web.app/login"
     },
     {
-        "name": "Rescue Dog Matcher",
-        "image": "https://i9.ytimg.com/vi_webp/O6CBbB11tTg/mq2.webp?sqp=CKTE_vsF&rs=AOn4CLDsLyWDBPwszq_TPgj2DatigYMyxw",
+        "name": "Dog Matcher",
+        "image": dogimage,
         "frontend": "https://github.com/nolan-dyke/mod4_project/tree/master/dogfront",
         "backend": "https://github.com/nolan-dyke/mod4_project/tree/master/dog_backend",
         "hook": "Find your next furry friend. All of Colorado's pups in need of a good home displayed in one convenient place.",
@@ -24,13 +28,22 @@ const projectInfo = [
     },
     {
         "name": "Knits Generator",
-        "image": "https://i9.ytimg.com/vi_webp/MUEmTA7dE8U/mq1.webp?sqp=CKTE_vsF&rs=AOn4CLBjqDoIHEMuWd4W337YvdA_k5sRzg",
+        "image": knitimage,
         "frontend": "https://github.com/nolan-dyke/mod_3_project_frontend",
         "backend": "https://github.com/nolan-dyke/mod3_project_backend",
         "hook": "One size fits all no more. Get a unique knitting pattern generated to fit your exact measurement.",
         "description": "Utilizes vannila JavaScript to create a single page web application with the ability to create unique, line-by-line knitting patterns to exact specifications. Implemented HTML/CSS to create an optimized user interface. Implemented a Rails backend to authenticate users and save generated patterns.",
         "link": "https://www.youtube.com/watch?v=MUEmTA7dE8U"
-    }
+    },
+    {
+        "name": "Accountabilibudies",
+        "image": accountimage,
+        "frontend": "https://github.com/ljg2gb/Accountabilibuddies",
+        "backend": "https://github.com/nolan-dyke/mod2_project",
+        "hook": "Having trouble accomplishing your goals in isolation? Join a group of like-minded buddies and keep each other on track.",
+        "description": "Pair-programming project that uses a Vanilla ES6 Javascript frontend. Implements a Rails backend with custom routes. Deploys full CRUD actions on a complex relational database.",
+        "link": "https://www.youtube.com/watch?v=ECMCJ1QmmPw&t=1s"
+    },
 ]
 
 export default function projects() {
