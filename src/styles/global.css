@@ -291,6 +291,25 @@ form button:hover {
     color: #f7f9fb;
 }
 
+#index-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#name-and-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#self-image {
+    border-radius: 75%;
+    max-width: 25%;
+}
+
 @media only screen and (max-width: 600px) {
     #email {
         display: none;
