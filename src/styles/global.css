@@ -245,6 +245,11 @@ form button:hover {
     padding: 70px;
 }
 
+#project-title {
+    text-align: center;
+    font-size: 80px;
+}
+
 #project-container {
     display: flex;
     flex-flow: row wrap;
@@ -254,10 +259,13 @@ form button:hover {
 
 .card {
     border: solid;
-    border-radius: 8px;
+    border-radius: 50%;
+    width: 750px;
+    height: 750px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 10px;
     margin: 10px;
     background-color: rgb(80, 133, 165);
@@ -266,11 +274,6 @@ form button:hover {
 
 .card h3 {
     font-size: 40px;
-}
-
-.card img {
-    border-radius: 10px;
-    width: 300px;
 }
 
 .card > *{

@@ -6,6 +6,10 @@ import phonoimage from '../images/phonomandarin.png'
 import dogimage from '../images/dogmatcher.png'
 import accountimage from '../images/Accountabilibuddies.png'
 import knitimage from '../images/knit.png'
+import greatwall from '../images/greatwall.png'
+import cutedog from '../images/cute-dog.png'
+import yarn from '../images/yarn.png'
+import goals from '../images/goals.png'
 
 const projectInfo = [
     {
@@ -45,13 +49,37 @@ const projectInfo = [
         "link": "https://www.youtube.com/watch?v=ECMCJ1QmmPw&t=1s"
     },
 ]
+const simpleProjectCards = [
+    {
+        "name": "PhonoMandarin",
+        "subName": "汉语",
+        "link": "https://phonomandarin.web.app/login",
+        "image": greatwall
+    }, 
+    {
+        "name": "Dog Matcher",
+        "link": "https://www.youtube.com/watch?v=O6CBbB11tTg",
+        "image": cutedog
+    },
+    {
+        "name": "Knits Generator",
+        "link": "https://www.youtube.com/watch?v=MUEmTA7dE8U",
+        "image": yarn
+    },
+    {
+        "name": "Accountabilibudies",
+        "link": "https://www.youtube.com/watch?v=ECMCJ1QmmPw&t=1s",
+        "image": goals
+    }
+]
 
 export default function projects() {
-    const projectCardsDisplayed = projectInfo.map(project => <ProjectCard project={project} />)
+    const projectCardsDisplayed = simpleProjectCards.map(project => <ProjectCard project={project} />)
 
     return (
         <div>
             <Navbar />
+            <h1 id="project-title">Personal Projects</h1>
             <div id="project-container">
                 {projectCardsDisplayed}
             </div>
