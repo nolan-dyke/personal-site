@@ -54,21 +54,25 @@ const simpleProjectCards = [
         "name": "PhonoMandarin",
         "subName": "汉语",
         "link": "https://phonomandarin.web.app/login",
+        "page": "phonomandarin",
         "image": greatwall
     }, 
     {
         "name": "Dog Matcher",
         "link": "https://www.youtube.com/watch?v=O6CBbB11tTg",
+        "page": "dogmatcher",
         "image": cutedog
     },
     {
         "name": "Knits Generator",
         "link": "https://www.youtube.com/watch?v=MUEmTA7dE8U",
+        "page": "knitsgenerator",
         "image": yarn
     },
     {
         "name": "Accountabilibudies",
         "link": "https://www.youtube.com/watch?v=ECMCJ1QmmPw&t=1s",
+        "page": "account",
         "image": goals
     }
 ]
