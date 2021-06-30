@@ -6,15 +6,11 @@ export default function ProjectCard(props) {
     function openNewTab() {
         navigate(`/${project.page}`);
     }
-    var style ={
-        backgroundImage: `url(${project.image})`,
-        backgroundSize: "auto 750px",
-        backgroundRepeat: "no-repeat"
-    }; 
     return (
-        <card className='card' style={ style } onClick={openNewTab}>
+        <card className='card' onClick={openNewTab}>
             <h3>{project.name}</h3>
             <h3>{project.subName}</h3>
+            <div id="project-icon">{project.image}</div>
         </card>
     )
 }

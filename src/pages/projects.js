@@ -6,10 +6,12 @@ import phonoimage from '../images/phonomandarin.png'
 import dogimage from '../images/dogmatcher.png'
 import accountimage from '../images/Accountabilibuddies.png'
 import knitimage from '../images/knit.png'
-import greatwall from '../images/greatwall.png'
-import cutedog from '../images/cute-dog.png'
-import yarn from '../images/yarn.png'
-import goals from '../images/goals.png'
+import { GiYarn } from "@react-icons/all-files/gi/GiYarn";
+import { FaLanguage } from "@react-icons/all-files/fa/FaLanguage";
+import { FaDog } from "@react-icons/all-files/fa/FaDog";
+import { GoGraph } from "@react-icons/all-files/go/GoGraph";
+
+
 
 const projectInfo = [
     {
@@ -55,25 +57,25 @@ const simpleProjectCards = [
         "subName": "汉语",
         "link": "https://phonomandarin.web.app/login",
         "page": "phonomandarin",
-        "image": greatwall
+        "image": <FaLanguage />
     }, 
     {
         "name": "Dog Matcher",
         "link": "https://www.youtube.com/watch?v=O6CBbB11tTg",
         "page": "dogmatcher",
-        "image": cutedog
+        "image": <FaDog />
     },
     {
         "name": "Knits Generator",
         "link": "https://www.youtube.com/watch?v=MUEmTA7dE8U",
         "page": "knitsgenerator",
-        "image": yarn
+        "image": <GiYarn />
     },
     {
         "name": "Accountabilibudies",
         "link": "https://www.youtube.com/watch?v=ECMCJ1QmmPw&t=1s",
         "page": "account",
-        "image": goals
+        "image": <GoGraph />
     }
 ]
 

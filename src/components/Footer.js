@@ -7,7 +7,7 @@ export default function Footer() {
         <footer>
             <a  href="mailto:nolan.g.dyke@gmail.com">
                 <GrMail />
-            </a> 
+            </a>
             <a href="http://www.linkedin.com/in/nolan-dyke" target="_blank" rel="noreferrer">
                 <FaLinkedin />
             </a>
